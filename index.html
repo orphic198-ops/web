@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Photo Booth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vintage Photo Booth 📸</h1>
+        <p>Capture your moments with style!</p>
+    </header>
+
+    <section id="camera-section">
+        <video id="camera" autoplay></video>
+        <canvas id="canvas" style="display:none;"></canvas>
+        <div id="stickers">
+            <!-- stickers will be selectable here -->
+        </div>
+        <button id="capture-btn">Take Photo</button>
+    </section>
+
+    <section id="collage-section">
+        <h2>Your Collage</h2>
+        <div id="collage"></div>
+    </section>
+
+    <section id="photo-wall">
+        <h2>Photo Wall</h2>
+        <div id="wall"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
